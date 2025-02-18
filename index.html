@@ -3,11 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Odin recipes</title>
   </head>
   <body>
+    
+    <div class="menu">
     <h1>Odin Recipes</h1>
-    <a href="Recipes/pizza.html">Pizza</a>
-    <a href="Recipes/cake.html">Cake</a>
+    <ul>
+        <li><a href="../Odin-recipes/index.html">Home</a></li>
+        <li><a href="Recipes/pizza.html">Pizza</a></li>
+        <li><a href="Recipes/cake.html">Cake</a></li>
+      </ul>
+    </div>
+    <div class="container">
+        <img src="img/fundo.jpg" alt="this is a picture of a food">
+        <h1>The taste of good food you <br> only find here.</h1>
+        <p>This is a food website where you can find a variety of recipes and cooking tips. <br> Discover delicious dishes and enhance your cooking skills!</p>
+    </div>
+
+    <div class="navbar">
+        <h1>RECIPES FILTER</h1>
+        <div class="search-container">
+            <input type="text" placeholder="SEARCH">
+            <button class="search-button">🔍</button>
+            <select class="occasion">
+                <option value="">OCCASION</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Holiday">Holiday</option>
+                <option value="Marriage">Marriage</option>
+            </select>
+        </div>
+        <div class="filter-options">
+            <label>
+                <input type="radio" name="type" value="sweet"> SWEET
+            </label>
+            <label>
+                <input type="radio" name="type" value="savory"> SAVORY
+            </label>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="recipe-card">
+            <img src="img/slicepizza.jpg" alt="a slice of pizza">
+            <h2>Pizza</h2>
+            <p>Craft your own slice of happiness with our delicious pizza recipe! From the perfectly crispy crust to the flavorful toppings, discover how to create a pizza that will delight your taste buds and bring joy to your kitchen.</p>
+            <a href="../Odin-recipes/Recipes/pizza.html">Learn more</a>
+        </div>
+        <div class="recipe-card">
+            <img src="img/piececake.jpg" alt="a slice of cake">
+            <h2>Cake</h2>
+            <p>Whip up a slice of joy with our rich chocolate cake recipe! Indulge in layers of moist, decadent chocolate that melt in your mouth, and discover the secret to creating a dessert that will leave everyone craving for more!</p>
+            <a href="../Odin-recipes/Recipes/cake.html">Learn more</a>
+        </div>
+        <div class="recipe-card">
+            <img src="img/lasanha.jpg" alt="a picture of a lasagna">
+            <h2>Lasagna</h2>
+            <p>Layer up some love with our hearty lasagna recipe! Packed with rich meat sauce, creamy cheese, and perfectly cooked noodles, this comforting dish is perfect for family gatherings or cozy dinners at home.</p>
+            <a href="maintenance.html">Learn more</a>
+        </div>
+        <div class="recipe-card">
+            <img src="img/cheese.jpg" alt="a picture of a Cheese ball">
+            <h2>Cheese ball</h2>
+            <p>Get ready for a cheesy delight with our crispy cheese balls! Made with gooey cheese and perfectly seasoned, these golden bites are the perfect snack or party appetizer. Indulge in the cheesy goodness!</p>
+            <a href="maintenance.html">Learn more</a>
+        </div>
+
+        <div class="recipe-card plus-card">
+            <a href="maintenance.html">
+            <img src="img/mais.png" alt="Plus icon">
+        </a>
+            <p>Click for more recipes!</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Odin Recipes. All rights reserved.</p>
+    </div>
+    
   </body>
 </html>
